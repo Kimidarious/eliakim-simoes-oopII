@@ -1,6 +1,9 @@
-package Eliakim.Solid.Desafio3;
+package Eliakim.Solid.Desafio3.loja.pagamento;
 
-class PagamentoCartaoCredito implements ProcessadorPagamento, CalculadorDesconto {
+import Eliakim.Solid.Desafio3.loja.interfaces.CalculadorDesconto;
+import Eliakim.Solid.Desafio3.loja.interfaces.ProcessadorPagamento;
+
+public class PagamentoCartaoCredito implements ProcessadorPagamento, CalculadorDesconto {
     @Override
     public boolean processarPagamento(double valor) {
         System.out.println("Processando pagamento cartão de credito: R$" + valor);

@@ -1,10 +1,10 @@
-package Eliakim.Solid.Desafio3;
+package Eliakim.Solid.Desafio3.loja.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-class Pedido {
+public class Pedido {
     private String id;
     private List<String> itens;
     private double valorTotal;

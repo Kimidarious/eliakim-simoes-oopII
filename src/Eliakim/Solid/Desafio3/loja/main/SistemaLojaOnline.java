@@ -1,4 +1,15 @@
-package Eliakim.Solid.Desafio3;
+package Eliakim.Solid.Desafio3.loja.main;
+
+import Eliakim.Solid.Desafio3.loja.envio.EnvioCorreios;
+import Eliakim.Solid.Desafio3.loja.envio.EnvioTransportadora;
+import Eliakim.Solid.Desafio3.loja.model.Pedido;
+import Eliakim.Solid.Desafio3.loja.notificacao.NotificadorEmail;
+import Eliakim.Solid.Desafio3.loja.notificacao.NotificadorSMS;
+import Eliakim.Solid.Desafio3.loja.notificacao.NotificadorWhatsApp;
+import Eliakim.Solid.Desafio3.loja.pagamento.PagamentoBoleto;
+import Eliakim.Solid.Desafio3.loja.pagamento.PagamentoCartaoCredito;
+import Eliakim.Solid.Desafio3.loja.pagamento.PagamentoPix;
+import Eliakim.Solid.Desafio3.loja.service.GerenciadorPedidos;
 
 import java.util.List;
 

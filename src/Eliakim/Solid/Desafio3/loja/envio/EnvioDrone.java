@@ -1,4 +1,8 @@
-package Eliakim.Solid.Desafio3;
+package Eliakim.Solid.Desafio3.loja.envio;
+
+import Eliakim.Solid.Desafio3.loja.interfaces.CalculadorFrete;
+import Eliakim.Solid.Desafio3.loja.interfaces.ServicoEnvio;
+import Eliakim.Solid.Desafio3.loja.model.Pedido;
 
 public class EnvioDrone implements ServicoEnvio, CalculadorFrete {
     @Override

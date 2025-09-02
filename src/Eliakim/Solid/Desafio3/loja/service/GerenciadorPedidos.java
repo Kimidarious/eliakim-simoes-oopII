@@ -1,9 +1,12 @@
-package Eliakim.Solid.Desafio3;
+package Eliakim.Solid.Desafio3.loja.service;
+
+import Eliakim.Solid.Desafio3.loja.interfaces.*;
+import Eliakim.Solid.Desafio3.loja.model.Pedido;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class GerenciadorPedidos {
+public class GerenciadorPedidos {
     private final ProcessadorPagamento processadorPagamento;
     private final ServicoEnvio servicoEnvio;
     private final NotificadorCliente notificador;

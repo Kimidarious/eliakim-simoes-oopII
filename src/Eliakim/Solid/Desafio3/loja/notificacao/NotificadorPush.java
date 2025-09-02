@@ -1,4 +1,6 @@
-package Eliakim.Solid.Desafio3;
+package Eliakim.Solid.Desafio3.loja.notificacao;
+
+import Eliakim.Solid.Desafio3.loja.interfaces.NotificadorCliente;
 
 public class NotificadorPush implements NotificadorCliente {
     @Override
