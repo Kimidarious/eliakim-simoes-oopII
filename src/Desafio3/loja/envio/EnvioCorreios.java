@@ -1,8 +1,8 @@
-package Eliakim.Solid.Desafio3.loja.envio;
+package Desafio3.loja.envio;
 
-import Eliakim.Solid.Desafio3.loja.interfaces.CalculadorFrete;
-import Eliakim.Solid.Desafio3.loja.interfaces.ServicoEnvio;
-import Eliakim.Solid.Desafio3.loja.model.Pedido;
+import Desafio3.loja.interfaces.CalculadorFrete;
+import Desafio3.loja.interfaces.ServicoEnvio;
+import Desafio3.loja.model.Pedido;
 
 public class EnvioCorreios implements ServicoEnvio, CalculadorFrete {
     @Override

@@ -1,7 +1,7 @@
-package Eliakim.Solid.Desafio3.loja.service;
+package Desafio3.loja.service;
 
-import Eliakim.Solid.Desafio3.loja.interfaces.*;
-import Eliakim.Solid.Desafio3.loja.model.Pedido;
+import Desafio3.loja.interfaces.*;
+import Desafio3.loja.model.Pedido;
 
 import java.util.ArrayList;
 import java.util.List;

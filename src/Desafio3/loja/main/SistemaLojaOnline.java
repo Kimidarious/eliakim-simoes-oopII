@@ -1,15 +1,15 @@
-package Eliakim.Solid.Desafio3.loja.main;
+package Desafio3.loja.main;
 
-import Eliakim.Solid.Desafio3.loja.envio.EnvioCorreios;
-import Eliakim.Solid.Desafio3.loja.envio.EnvioTransportadora;
-import Eliakim.Solid.Desafio3.loja.model.Pedido;
-import Eliakim.Solid.Desafio3.loja.notificacao.NotificadorEmail;
-import Eliakim.Solid.Desafio3.loja.notificacao.NotificadorSMS;
-import Eliakim.Solid.Desafio3.loja.notificacao.NotificadorWhatsApp;
-import Eliakim.Solid.Desafio3.loja.pagamento.PagamentoBoleto;
-import Eliakim.Solid.Desafio3.loja.pagamento.PagamentoCartaoCredito;
-import Eliakim.Solid.Desafio3.loja.pagamento.PagamentoPix;
-import Eliakim.Solid.Desafio3.loja.service.GerenciadorPedidos;
+import Desafio3.loja.envio.EnvioCorreios;
+import Desafio3.loja.envio.EnvioTransportadora;
+import Desafio3.loja.model.Pedido;
+import Desafio3.loja.notificacao.NotificadorEmail;
+import Desafio3.loja.notificacao.NotificadorSMS;
+import Desafio3.loja.notificacao.NotificadorWhatsApp;
+import Desafio3.loja.pagamento.PagamentoBoleto;
+import Desafio3.loja.pagamento.PagamentoCartaoCredito;
+import Desafio3.loja.pagamento.PagamentoPix;
+import Desafio3.loja.service.GerenciadorPedidos;
 
 import java.util.List;
 
@@ -33,7 +33,7 @@ public class SistemaLojaOnline {
         gerenciador1.enviarPedido("001");
         gerenciador1.listarPedidos();
 
-        System.out.println("CENÁRIO 2: PIX + TRANSPORTADORA + WHATSAPP");
+        System.out.println("\nCENÁRIO 2: PIX + TRANSPORTADORA + WHATSAPP");
 
         GerenciadorPedidos gerenciador2 = new GerenciadorPedidos(
                 new PagamentoPix(),

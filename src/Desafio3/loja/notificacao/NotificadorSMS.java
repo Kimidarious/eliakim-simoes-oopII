@@ -1,6 +1,6 @@
-package Eliakim.Solid.Desafio3.loja.notificacao;
+package Desafio3.loja.notificacao;
 
-import Eliakim.Solid.Desafio3.loja.interfaces.NotificadorCliente;
+import Desafio3.loja.interfaces.NotificadorCliente;
 
 public class NotificadorSMS implements NotificadorCliente {
     @Override

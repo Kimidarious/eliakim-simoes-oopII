@@ -1,7 +1,7 @@
-package Eliakim.Solid.Desafio3.loja.pagamento;
+package Desafio3.loja.pagamento;
 
-import Eliakim.Solid.Desafio3.loja.interfaces.CalculadorDesconto;
-import Eliakim.Solid.Desafio3.loja.interfaces.ProcessadorPagamento;
+import Desafio3.loja.interfaces.CalculadorDesconto;
+import Desafio3.loja.interfaces.ProcessadorPagamento;
 
 public class PagamentoPix implements ProcessadorPagamento, CalculadorDesconto {
     @Override

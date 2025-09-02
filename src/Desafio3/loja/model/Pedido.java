@@ -1,4 +1,4 @@
-package Eliakim.Solid.Desafio3.loja.model;
+package Desafio3.loja.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
